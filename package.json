@@ -1,0 +1,28 @@
+{
+  "name": "sfcc_labels_generator",
+  "version": "1.0.0",
+  "description": "Transform SFCC labels in properties files to excel file and back",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sfcc",
+    "labels",
+    "sfra"
+  ],
+  "dependencies": {
+    "excel4node": "^1.2.1",
+    "fs.extra": "^1.3.2",
+    "inquirer": "^6.2.1",
+    "jsonfile": "^3.0.1",
+    "properties-parser": "^0.3.1",
+    "xlsx": "^0.11.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xavisan17/sfccLabelsGenerator.git"
+  },
+  "author": "Xavier Santana",
+  "license": "MIT"
+}
